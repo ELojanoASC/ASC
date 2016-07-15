@@ -126,10 +126,35 @@ while (colorSpotXValue != -1):
     else:
         forward(2,2)
         
+colorSpotXValue = 3
 backward(2,2)
 
-    
-    
+while (colorSpotXValue != -1):
+    picture = takePicture()
+    colorSpotXValue = findColorSpot(picture,yellow)
+    print (colorSpotXValue)
+    if (colorSpotXValue == 0):
+        turnBy(45)
+    else:
+        forward(2,2)
+
+colorSpotXValue = 4
+backward(2,2)
+
+while (colorSpotXValue != -1):
+    picture = takePicture()
+    colorSpotXValue = findColorSpot(picture,red)
+    print(colorSpotXValue)
+    if (colorSpotXValue == 0):
+        turnBy(45)
+    else:
+        forward(2,1)
+
+colorSpotXValue = 5
+
+backward(2,2)    
+turnBy(90)
+forward(2,2)    
     
     
 

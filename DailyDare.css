@@ -1,0 +1,23 @@
+.Logo{
+  size:100px;
+  position: center;
+}
+h1  {
+  text-align:center;
+}
+
+div {
+  width:150%;
+  display:inline-block;
+}
+h1 {
+  text-size:200%;
+  color:#0000FF;
+  position: relative;
+  top:70px;
+  display:block;
+}
+#first_section {
+  height:800px;
+  background-color:'white';
+}
